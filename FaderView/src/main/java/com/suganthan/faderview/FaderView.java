@@ -40,7 +40,7 @@ public class FaderView extends SurfaceView implements SurfaceHolder.Callback {
         getHolder().addCallback(this);
         setFocusable(true);
         this.bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.baseline_fast_rewind_24);
-        this.width = this.bitmap.getWidth();
+        this.wdth = this.bitmap.getWidth();
         this.height = this.bitmap.getHeight();
     }
 
